@@ -1,0 +1,48 @@
+body {
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    background-color: rgb(40, 38, 38);
+    color: rgb(218, 191, 191);
+}
+
+main{
+    width: 40vw;
+    margin-inline: auto;
+    margin-top: 10vh;
+    border: solid 2px fuchsia;
+    padding-inline: 30px;
+    border-radius: 10px;
+}
+
+input{
+    height: 30px;
+    width: 20vw;
+    border-radius: 10px; 
+    font-size: 1.5rem;  
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+hr{
+    border: solid 2px fuchsia;
+    margin-block: 80px;
+}
+#petName{
+    margin-left: 39px;
+}
+#species{
+    margin-left: 66px;
+}
+#breed{
+    margin-left: 87px;
+}
+Button{
+    width: 200px;
+    height: 40px;
+    margin-left: 168px;
+    margin-top: 50px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    color: fuchsia;
+}
